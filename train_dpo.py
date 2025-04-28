@@ -21,9 +21,10 @@ training_args = DPOConfig(
      max_length=1024,
      max_prompt_length=256,
      save_steps = 20000,
-     save_total_limit = 1
+     save_total_limit = 1,
+     loss_type='DPO'
 )
-
+# we directly change the DPOTrainer local file to modify and create our own methods.
 trainer = DPOTrainer(model=model, args=training_args, processing_class=tokenizer, train_dataset=train_dataset)
 trainer.train()
 # accelerate launch --mixed_precision=fp16 11711-hw4/train_dpo.py
