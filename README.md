@@ -11,7 +11,7 @@ We use `train_dpo.py` to train `Qwen2.5-0.5B-Instruct` on an EC2 instance. Then,
 ## Contributions
 Daren Yao | darenyao@andrew.cmu.edu
 - Designed the testing pipeline for alignment methods (TRL DPO trainer -> Alpaca Eval & MT-bench).
-- Proposed APO-hinge and APO-hinge-softmax
+- Proposed APO-hinge and APO-hinge-softplus
 - Training: APO-hinge, DPO, DPO-hinge
 - Report: Analyze results, Discussion, visualization and consolidate report content.
   
