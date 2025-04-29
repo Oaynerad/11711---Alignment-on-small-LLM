@@ -1,5 +1,14 @@
 # 11711---Alignment-on-small-LLM
 
+## Explanation for the code
+
+We use `train_dpo.py` to train `Qwen2.5-0.5B-Instruct` on an EC2 instance. Then, we use `generate_alpaca_eval_with_token.py` to generate AlpacaEval responses with vllm. 
+- `create_figure.ipynb`: MT-bench radar figure
+- 
+
+## Partial Content
+
+For more information, please refer to `report.pdf`
 Small language models (LLMs) often face difficulties in aligning output to human preferences, particularly when operating under severe performance gaps.
 In this work, we propose two lightweight DPO-based variants---Adaptive Margin-Sigmoid Loss and APO-Hinge---to better address underperformance scenarios by introducing margin-based objectives and selective update mechanisms.
 
