@@ -3,8 +3,25 @@
 ## Explanation for the code
 
 We use `train_dpo.py` to train `Qwen2.5-0.5B-Instruct` on an EC2 instance. Then, we use `generate_alpaca_eval_with_token.py` to generate AlpacaEval responses with vllm. 
-- `create_figure.ipynb`: MT-bench radar figure
-- 
+- `create_figure.ipynb`: MT-bench radar figure (The corresponding data is stored in `MT-bench_all_models.jsonl`.)
+- All the AlpacaEval results are in this repository. They are named as `alpaca_eval_{method}`, most of them are stored in a folder (containing the annotation and the leaderboard), for some of them we only saved the leaderboard (the csv file).
+- `test_davinci_003_output` is the baseline for AlpacaEval 1.0
+
+## Contributions
+Daren Yao | darenyao@andrew.cmu.edu
+- Designed the testing pipeline for alignment methods (TRL DPO trainer -> Alpaca Eval & MT-bench).
+- Proposed APO-hinge and APO-hinge-softmax
+- Training: APO-hinge, DPO, DPO-hinge
+- Report: Analyze results, Discussion, visualization and consolidate report content.
+  
+Jinsong Yuan | jinsongy@andrew.cmu.edu
+- Proposed margin-sigmoid method
+- Training: AOT, IPO, margin-sigmoid
+- Report: Analyze training results, Discussion and Conclusions
+  
+Ruike Chen | ruikec@andrew.cmu.edu
+- Training: APO, EXO, APO-hinge-softplus
+- Report: Introduction Related work and AlpacaEval analysis.
 
 ## Partial Content
 
