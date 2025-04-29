@@ -1,4 +1,5 @@
 # 11711---Alignment-on-small-LLM
+Daren Yao | Jinsong Yuan | Ruike Chen
 
 ## Explanation for the code
 
@@ -36,7 +37,8 @@ In MT-Bench, our methods maintain competitive performance in diverse categories,
 These results demonstrate that simple modifications to preference-based objectives can significantly enhance small LLM alignment under resource constraints, offering a practical path toward more efficient deployment.
 
 
-
+## **MT-bench**
 ![fig](https://github.com/user-attachments/assets/9b9e82cb-a3d1-4b68-b371-cba2269fb6f8)
 ![mtbench1](https://github.com/user-attachments/assets/4325e633-b678-4fd8-9150-2bb46122b60a)
+## **Alpaca Eval 1.0**
 ![output (2)](https://github.com/user-attachments/assets/c75c4daa-e7df-4d62-9af1-7c24b6dc82b7)
