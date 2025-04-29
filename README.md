@@ -22,7 +22,7 @@ Jinsong Yuan | jinsongy@andrew.cmu.edu
   
 Ruike Chen | ruikec@andrew.cmu.edu
 - Training: APO, EXO, APO-hinge-softplus
-- Report: Introduction Related work and AlpacaEval analysis.
+- Report: Introduction, Related work and AlpacaEval analysis.
 
 ## Partial Content
 
